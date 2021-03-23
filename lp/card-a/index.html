@@ -41,9 +41,10 @@
       <img src="./img/sampleA.jpg" alt="サンプル画像">
     </a>
     <script>
+      import { cardUrl } from "../../index.js";
       const hostName = location.hostname;
       const formLink = document.getElementById('form-link');
-      formLink.href = '%TECHBIZ_CARD_URL%/login';
+      formLink.href = `${cardUrl}/login`;
       // if (hostName.includes('test')) {
       //   formLink.href = 'https://dev-card.tech-biz.jp/login';
       // } else if (hostName.includes('stg')) {
