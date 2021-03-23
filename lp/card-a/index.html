@@ -27,6 +27,17 @@
       })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
         { 'GTM-M6LXVNL': true });</script>
     <!-- End Anti-flicker snippet -->
+    <script>
+      const hostName = location.hostname;
+      const formLink = document.getElementById('form-link');
+      if (hostName.includes('test')) {
+        formLink.href = 'https://dev-card.tech-biz.jp/login';
+      } else if (hostName.includes('stg')) {
+        formLink.href = 'https://stg-card.tech-biz.jp/login';
+      } else {
+        formLink.href = 'https://card.tech-biz.jp/login';
+      }
+    </script>
     <link rel="stylesheet" href="../../reset.css">
     <link rel="stylesheet" href="./styles.css">
     <title>テックビズカードLP-A</title>
@@ -37,7 +48,7 @@
         style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <h1>LP-A</h1>
-    <a href="https://dev-card.tech-biz.jp/login">
+    <a id="form-link">
       <img src="./img/sampleA.jpg" alt="サンプル画像">
     </a>
   </body>
