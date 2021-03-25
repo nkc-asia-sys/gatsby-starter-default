@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 const PATH = require('path');
 
 module.exports = {
@@ -7,4 +8,7 @@ module.exports = {
     filename: 'main.js'
   },
   mode: 'development',
+  plugins: [
+    new webpack.EnvironmentPlugin(process.env),
+  ],
 };
