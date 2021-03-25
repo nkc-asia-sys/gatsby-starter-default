@@ -7,3 +7,5 @@ if (hostName.includes(process.env.D_ENV)) {
 } else {
 	formLink.href = process.env.P_URL;
 }
+
+console.log(process.env.D_ENV);
