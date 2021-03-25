@@ -6,6 +6,9 @@
   "repository": "https://nkc-asia-sys@github.com/nkc-asia-sys/gatsby-starter-default.git",
   "author": "nkc-asia-sys <sys@nkcasia.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "D_ENV='dev' S_ENV='stg' D_URL='https://dev-card.tech-biz.jp' S_URL='https://stg-card.tech-biz.jp' P_URL='https://card.tech-biz.jp' webpack --production"
+  },
   "devDependencies": {
     "webpack": "^5.27.2",
     "webpack-cli": "^4.5.0"
