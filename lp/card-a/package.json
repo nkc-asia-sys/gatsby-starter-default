@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "D_ENV='dev' S_ENV='stg' D_URL='https://dev-card.tech-biz.jp' S_URL='https://stg-card.tech-biz.jp' P_URL='https://card.tech-biz.jp' npx webpack"
+    "build": "D_ENV='test' S_ENV='stg' D_URL='https://dev-card.tech-biz.jp' S_URL='https://stg-card.tech-biz.jp' P_URL='https://card.tech-biz.jp' npx webpack"
   },
   "devDependencies": {
     "webpack": "^5.28.0",
