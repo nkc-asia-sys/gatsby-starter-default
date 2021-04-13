@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="icon" href="../../favicon.ico" />
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
@@ -27,9 +27,14 @@
       })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
         { 'GTM-M6LXVNL': true });</script>
     <!-- End Anti-flicker snippet -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    >
+    <script src="https://kit.fontawesome.com/5aa02f0ecc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../reset.css">
     <link rel="stylesheet" href="./styles.css">
-    <script src="https://kit.fontawesome.com/5aa02f0ecc.js" crossorigin="anonymous"></script>
     <title>ITフリーランス向けビジネスゴールドカード｜テックビズゴールドカード</title>
   </head>
   <body>
@@ -38,59 +43,55 @@
         style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <header>
-      <div>
-        <div>
-          <img src="./src/img/logo_card.png" alt="テックビズカードロゴ">
-        </div>
-        <div>
-          <p>
-            テックビズゴールドカードは、経費や記帳／代行サポート、コワーキングスペース、<br>
-            電子契約サービスの利用などフリーランス活動の中にいろいろなサービスに使えます。
-          </p>
-        </div>
+      <div class="header-logo">
+        <img src="./src/img/logo_card.png" alt="テックビズカードロゴ">
       </div>
+      <p class="header-text content-pc">
+        テックビズゴールドカードは、経費や記帳／代行サポート、コワーキングスペース、<br>
+        電子契約サービスの利用などフリーランス活動の中にいろいろなサービスに使えます。
+      </p>
     </header>
 
     <!-- First View -->
-    <section>
-      <h1>
+    <section class="firstView">
+      <h1 class="firstView-copy">
         クレジットカードも<br>
-        プライベートとビジネスを 使い分ける時代
+        プライベートとビジネスを<br class="content-sp">使い分ける時代
       </h1>
-      <div>
-        <div>
+      <div class="firstView-cardBox">
+        <div class="firstView-card">
           <img src="./src/img/card_image.png" alt="カード券面">
         </div>
-        <ul>
-          <li><p>驚異の還元率</p></li>
-          <li><p>年会費初年度無料</p></li>
-          <li><p>確定申告 / オフィス利用が無料に</p></li>
+        <ul class="firstView-cardTopic">
+          <li>驚異の高還元率</li>
+          <li>年会費初年度無料</li>
+          <li>確定申告 / オフィス利用が無料に</li>
         </ul>
       </div>
-      <div>
-        <div>
-          <span>
+      <div class="firstView-point">
+        <div class="firstView-pointContent">
+          <span class="firstView-pointText">
             高還元率
           </span>
-          <span>
+          <span class="firstView-pointLarge">
             1.1%
           </span>
         </div>
-        <div>
-          <span>
+        <div class="firstView-pointContent">
+          <span class="firstView-pointText">
             年会費初年度
           </span>
-          <span>
+          <span class="firstView-pointLarge">
             無料
           </span>
         </div>
       </div>
-      <p>
+      <p class="firstView-description">
         テックビズゴールドカードは、経営者や個人事業主向けに作られたビジネスカードです。<br>
         加入すると、事業だけではなくプライベートで役立つサービスも盛り込まれています。
       </p>
-      <div>
-        <a id="form-link" href="https://card.tech-biz.jp/login">
+      <div class="apply-button">
+        <a id="form-link" href="https://card.tech-biz.jp/login" class="apply-link">
           カードのお申し込みはこちら
           <i class="fas fa-angle-double-right"></i>
         </a>
@@ -98,56 +99,52 @@
     </section>
 
     <!-- Service -->
-    <section>
-      <div>
-        <img src="./src/img/kangen_pc.png" alt="PC版バナー">
+    <section class="service">
+      <div class="service-banner">
+        <img src="./src/img/kangen_pc.png" alt="PC版バナー" class="image-pc">
+        <img src="./src/img/kangen_sp.png" alt="SP版バナー" class="image-sp">
       </div>
-      <div>
-        <img src="./src/img/kangen_sp.png" alt="SP版バナー">
-      </div>
-      <div>
-        <h2>
-          サービス
-        </h2>
-        <p>
-          テックビズゴールドカードでお得が増える
-        </p>
-      </div>
-      <p>
+      <h2 class="section-title">
+        サービス
+      </h2>
+      <div class="section-divider"></div>
+      <p class="section-subTitle">
+        テックビズゴールドカードでお得が増える
+      </p>
+      <p class="service-description">
         テックビズゴールドカードは、経費や記帳／代行サポート、コワーキングスペース、<br>
         電子契約サーピスの利用などフリーランス活動の中のいろいろなサービスに使えます。
       </p>
-      <div>
-        <img src="./src/img/servicebanner01_pc.png" alt="PC版税務サポート">
-        <img src="./src/img/servicebanner01_sp.png" alt="SP版税務サポート">
+      <div class="service-image">
+        <img src="./src/img/servicebanner01_pc.png" alt="PC版税務サポート" class="image-pc">
+        <img src="./src/img/servicebanner01_sp.png" alt="SP版税務サポート" class="image-sp">
       </div>
-      <div>
-        <img src="./src/img/servicebanner02_pc.png" alt="PC版オフィス">
-        <img src="./src/img/servicebanner02_sp.png" alt="SP版オフィス">
+      <div class="service-image">
+        <img src="./src/img/servicebanner02_pc.png" alt="PC版オフィス" class="image-pc">
+        <img src="./src/img/servicebanner02_sp.png" alt="SP版オフィス" class="image-sp">
       </div>
     </section>
 
     <!-- Point -->
-    <section>
-      <div>
-        <h2>
-          ポイント
-        </h2>
-        <p>
-          ポイントが貯まる・増える
-        </p>
+    <section class="point">
+      <h2 class="section-title">
+        ポイント
+      </h2>
+      <div class="section-divider"></div>
+      <p class="section-subTitle">
+        ポイントが貯まる・増える
+      </p>
+      <div class="point-image">
+        <img src="./src/img/service_logo_pc.png" alt="PC版提携サービスロゴ" class="image-pc">
+        <img src="./src/img/service_logo_sp.png" alt="SP版提携サービスロゴ" class="image-sp">
       </div>
-      <div>
-        <img src="./src/img/service_logo_pc.png" alt="PC版提携サービスロゴ">
-        <img src="./src/img/service_logo_sp.png" alt="SP版提携サービスロゴ">
-      </div>
-      <ul>
+      <ul class="point-caution">
         <li>ポイント加算対象外となるご利用代金がございます。詳しくはカード会社に御問い合わせください。</li>
         <li>ポイントのご利用条件は、各サービスごとに定められています。</li>
         <li>カードのご利用でたまったポイントは現金への交換が可能です。</li>
       </ul>
-      <div>
-        <a id="form-link" href="https://card.tech-biz.jp/login">
+      <div class="apply-button">
+        <a id="form-link" href="https://card.tech-biz.jp/login" class="apply-link">
           カードのお申し込みはこちら
           <i class="fas fa-angle-double-right"></i>
         </a>
@@ -155,101 +152,99 @@
     </section>
 
     <!-- Information -->
-    <section>
-      <div>
-        <h2>
-          インフォメーション
-        </h2>
-        <p>
-          テックビズゴールドカード基本情報
-        </p>
-      </div>
-      <div>
-        <img src="./src/img/card_info_pc.png" alt="PC版カード情報">
-        <img src="./src/img/card_info_sp.png" alt="SP版カード情報">
+    <section class="information">
+      <h2 class="section-title">
+        インフォメーション
+      </h2>
+      <div class="section-divider"></div>
+      <p class="section-subTitle">
+        テックビズゴールドカード基本情報
+      </p>
+      <div class="information-image">
+        <img src="./src/img/card_info_pc.png" alt="PC版カード情報" class="image-pc">
+        <img src="./src/img/card_info_sp.png" alt="SP版カード情報" class="image-sp">
       </div>
     </section>
 
     <!-- Step -->
-    <section>
-      <div>
-        <h2>
-          ステップ
-        </h2>
-        <p>
-          お申し込み手順
-        </p>
-      </div>
-      <div>
-        <div>
+    <section class="step">
+      <h2 class="section-title">
+        ステップ
+      </h2>
+      <div class="section-divider"></div>
+      <p class="section-subTitle">
+        お申し込み手順
+      </p>
+      <div class="content-pc step-container">
+        <div class="step-content">
           <span>STEP1</span>
           <p>
             テックビズIDに<br>
             ログイン/会員登録する
           </p>
-          <div>
-            <img src="" alt="テックビズロゴ">
+          <div class="step-image">
+            <img src="./src/img/techbiz.png" alt="テックビズロゴ">
           </div>
         </div>
         <i class="fas fa-long-arrow-alt-right"></i>
-        <div>
+        <div class="step-content">
           <span>STEP2</span>
           <p>
             カード申し込み<br>
             手続きをする
           </p>
-          <div>
-            <img src="" alt="チェックマーク">
+          <div class="step-image">
+            <img src="./src/img/checkbox.png" alt="チェックマーク">
           </div>
         </div>
         <i class="fas fa-long-arrow-alt-right"></i>
-        <div>
+        <div class="step-content">
           <span>STEP3</span>
           <p>
             本人確認書類を<br>
             返送する
           </p>
-          <div>
-            <img src="" alt="封筒">
+          <div class="step-image">
+            <img src="./src/img/syorui_fuutou.png" alt="封筒">
           </div>
         </div>
       </div>
-      <div>
-        <div>
+      <div class="content-sp">
+        <div class="step-content">
           <span>STEP1</span>
           <p>
             テックビズIDに<br>
             ログイン/会員登録する
           </p>
-          <div>
-            <img src="" alt="テックビズロゴ">
+          <div class="step-image">
+            <img src="./src/img/techbiz.png" alt="テックビズロゴ">
           </div>
         </div>
         <i class="fas fa-long-arrow-alt-right fa-rotate-90"></i>
-        <div>
+        <div class="step-content">
           <span>STEP2</span>
           <p>
             カード申し込み<br>
             手続きをする
           </p>
-          <div>
-            <img src="" alt="チェックマーク">
+          <div class="step-image">
+            <img src="./src/img/checkbox.png" alt="チェックマーク">
           </div>
         </div>
         <i class="fas fa-long-arrow-alt-right fa-rotate-90"></i>
-        <div>
+        <div class="step-content">
           <span>STEP3</span>
           <p>
             本人確認書類を<br>
             返送する
           </p>
-          <div>
-            <img src="" alt="封筒">
+          <div class="step-image">
+            <img src="./src/img/syorui_fuutou.png" alt="封筒">
           </div>
         </div>
       </div>
-      <div>
-        <a id="form-link" href="https://card.tech-biz.jp/login">
+      <div class="apply-button">
+        <a id="form-link" href="https://card.tech-biz.jp/login" class="apply-link">
           カードのお申し込みはこちら
           <i class="fas fa-angle-double-right"></i>
         </a>
@@ -258,9 +253,9 @@
 
     <!-- Footer -->
     <footer>
-      <div>
-        <p>運営会社</p>
-        <p>
+      <div class="footer-information">
+        <p class="footer-information-title">運営会社</p>
+        <p class="footer-information-detail">
           <span>株式会社NKC ASIA</span><br>
           〒150-0022<br>
           東京都渋谷区恵比寿南1-1-1
@@ -268,7 +263,7 @@
         <p>TEL: 03-6303-0915</p>
         <p>FAX: 03-4563-9441</p>
       </div>
-      <p>Copyright ©︎ 2014 - 2021 株式会社NKC ASIA All rights reserved.</p>
+      <p class="footer-copyright">Copyright ©︎ 2014 - 2021 株式会社NKC ASIA All rights reserved.</p>
     </footer>
     <script src="dist/main.js"></script>
   </body>
