@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "D_ENV='test' S_ENV='stg' S_URL='https://stg-freelance.techbiz.co.jp/login' P_URL='https://freelance.techbiz.co.jp/login' npx webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0"
+  }
+}

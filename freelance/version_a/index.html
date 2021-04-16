@@ -28,6 +28,10 @@
       })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
         { 'GTM-57945DW': true });</script>
     <!-- End Anti-flicker snippet -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet">
     <link rel="stylesheet" href="../reset.css">
     <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/5aa02f0ecc.js" crossorigin="anonymous"></script>
@@ -41,52 +45,53 @@
 
     <!-- Header -->
     <header>
-      <div>
+      <div class="header-logo">
         <img src="./src/img/logo-techbiz-freelance.png" alt="テックビズフリーランスロゴ">
       </div>
-      <div>
-        <a href="">
-          コンサルタントに無料相談する
+      <div class="apply-button">
+        <a id="form-link" href="https://freelance.techbiz.co.jp/login">
+          無料相談
+          <i class="far fa-arrow-alt-circle-right fa-lg"></i>
         </a>
       </div>
     </header>
 
     <!-- Firstview -->
-    <section>
-      <div>
-        <div>
+    <section id="firstView" class="firstView">
+      <div class="firstView-main">
+        <div class="firstView-catch">
           <img src="./src/img/banner-caption.png" alt="キャッチコピー">
         </div>
-        <h1>
+        <h1 class="firstView-copy">
           ITフリーランスに最も寄り添えるエージェント
         </h1>
-        <p>
+        <p class="firstView-description">
           独立から案件参画後まで専属コンサルタントがトータルサポートいたします
         </p>
-        <div>
-          <a href="">
+        <div class="apply-button-body">
+          <a id="form-link" href="https://freelance.techbiz.co.jp/login">
             コンサルタントに無料相談
-            <i class="far fa-arrow-alt-circle-right"></i>
+            <i class="far fa-arrow-alt-circle-right fa-lg"></i>
           </a>
         </div>
       </div>
-      <div>
-        <div>
-          <p>案件決定率</p>
-          <p>
+      <div class="firstView-merit-container">
+        <div class="firstView-merit-content">
+          <p class="firstView-merit-title">案件決定率</p>
+          <p class="firstView-merit-subTitle">
             <span>90</span>
             %超
           </p>
         </div>
-        <div>
-          <p>記帳・確定申告代行</p>
-          <p>
-            <span>無料</span>
+        <div class="firstView-merit-content">
+          <p class="firstView-merit-title">記帳・確定申告代行</p>
+          <p class="firstView-merit-subTitle">
+            <span class="firstView-merit-japanese">無料</span>
           </p>
         </div>
-        <div>
-          <p>平均案件提案数</p>
-          <p>
+        <div class="firstView-merit-content">
+          <p class="firstView-merit-title">平均案件提案数</p>
+          <p class="firstView-merit-subTitle">
             <span>30</span>
             件/人
           </p>
@@ -95,12 +100,12 @@
     </section>
 
     <!-- Features -->
-    <section>
-      <p>FEATURES</p>
-      <h2>テックビズフリーランスの特徴</h2>
-      <div>
-        <div>
-          <div>
+    <section class="features section-white">
+      <p class="section-caption">FEATURES</p>
+      <h2 class="section-title">テックビズフリーランスの特徴</h2>
+      <div class="features-container">
+        <div class="features-content">
+          <div class="features-icon">
             <img src="./src/img/feature1.svg" alt="時計">
           </div>
           <h3>
@@ -112,8 +117,8 @@
             キャリアプランや税務面での相談がある方まで時間帯を問わずご相談可能です。
           </p>
         </div>
-        <div>
-          <div>
+        <div class="features-content">
+          <div class="features-icon">
             <img src="./src/img/feature2.svg" alt="記帳代行">
           </div>
           <h3>
@@ -124,8 +129,8 @@
             本業に集中して取り組んでいただけます。
           </p>
         </div>
-        <div>
-          <div>
+        <div class="features-content">
+          <div class="features-icon">
             <img src="./src/img/feature3.svg" alt="特典">
           </div>
           <h3>
@@ -140,115 +145,212 @@
     </section>
 
     <!-- Consulting -->
-    <section>
-      <p>ABOUT CONSULTING</p>
+    <section class="consulting section-gray">
+      <p class="section-caption">ABOUT CONSULTING</p>
       <h2>
-        プロの専属コンサルタントに幅広く
-        ご相談が可能
+        プロの専属コンサルタントに幅広くご相談が可能
       </h2>
-      <p>
+      <p class="consulting-description">
         弊社コンサルタントは、全員が過去に独立した経験を持っているため、
         フリーランスに真に寄り添った魅力的なご提案が可能です。※1<br>
         案件探しはもちろん、独立に向けた開業手続き・税務面・現場での不安などに至るまで、
         何でもご相談いただけます。
       </p>
-      <div>
+      <div class="consulting-container">
         <div>
           <img src="./src/img/illustration.png" alt="会議イラスト">
         </div>
-        <ul>
-          <li>キャリアプランのご相談</li>
-          <li>独立される際の不安相談</li>
-          <li>ご希望に沿った案件探し</li>
-          <li>税務面のご相談</li>
-          <li>案件参画後のご相談</li>
+        <ul class="consulting-list">
+          <li><i class="fas fa-check"></i>キャリアプランのご相談</li>
+          <li><i class="fas fa-check"></i>独立される際の不安相談</li>
+          <li><i class="fas fa-check"></i>ご希望に沿った案件探し</li>
+          <li><i class="fas fa-check"></i>税務面のご相談</li>
+          <li><i class="fas fa-check"></i>案件参画後のご相談</li>
         </ul>
       </div>
     </section>
 
     <!-- Step -->
-    <section>
-      <p>HOW TO START</p>
+    <section class="step section-white">
+      <p class="section-caption">HOW TO START</p>
       <h2>ご利用の流れ</h2>
-      <div>
+      <div class="step-catch">
         <img src="./src/img/step-caption.png" alt="案件参画コピー">
       </div>
-      <div>
+      <div class="step-image">
         <img src="./src/img/step-list-pc.png" alt="ステップ図">
       </div>
-      <div>
-        <a href="">
+      <div class="apply-button-body">
+        <a id="form-link" href="https://freelance.techbiz.co.jp/login">
           コンサルタントに無料相談
-          <i class="far fa-arrow-alt-circle-right"></i>
+          <i class="far fa-arrow-alt-circle-right fa-lg"></i>
         </a>
       </div>
     </section>
 
     <!-- Benefit -->
-    <section>
-      <p>BENEFITS AND RETURNS</p>
+    <section class="benefit section-gray">
+      <p class="section-caption">BENEFITS AND RETURNS</p>
       <h2>特典やポイント還元に対応したサービス</h2>
-      <div>
-        <div><img src="./src/img/logo-udemy.png" alt="Udemy"></div>
-        <div><img src="./src/img/logo-techacademy.png" alt="TechAcademy"></div>
-        <div><img src="./src/img/logo-freenance.png" alt="Freenance"></div>
-        <div><img src="./src/img/logo-freelance.png" alt="フリーランス協会"></div>
-        <div><img src="./src/img/logo-biglobe.png" alt="BIGLOBE"></div>
-        <div><img src="./src/img/logo-seshop.png" alt="SEshop"></div>
+      <div class="benefit-container">
+        <div class="benefit-image"><img src="./src/img/logo-udemy.png" alt="Udemy"></div>
+        <div class="benefit-image"><img src="./src/img/logo-techacademy.png" alt="TechAcademy"></div>
+        <div class="benefit-image"><img src="./src/img/logo-freenance.png" alt="Freenance"></div>
+        <div class="benefit-image"><img src="./src/img/logo-freelance.png" alt="フリーランス協会"></div>
+        <div class="benefit-image"><img src="./src/img/logo-biglobe.png" alt="BIGLOBE"></div>
+        <div class="benefit-image"><img src="./src/img/logo-seshop.png" alt="SEshop"></div>
       </div>
-      <div>
-        <a href="">
+      <div class="lifesupport-button">
+        <a href="https://points.tech-biz.jp/">
           すべての提携サービスを見る
           <i class="far fa-arrow-alt-circle-right"></i>
         </a>
       </div>
-      <p>
-        提携サービスは現在も拡大中！
+      <p class="lifesupport-caption">
+        <span>提携サービスは現在も拡大中！</span>
       </p>
     </section>
 
-    <!-- Conversion -->
-    <section>
+    <!-- Voice -->
+    <section class="voice section-white">
+      <p class="section-caption">USER'S VOICE</p>
+      <h2>ご利用者の声</h2>
+      <p class="voice-description">
+        たくさんのご利用者の方々からテックビズフリーランスに関する声をいただいております。
+        ここではその中から少し紹介させていただきます。
+      </p>
+      <div class="voice-container">
+        <div class="voice-content">
+          <p class="voice-info">20代エンジニア</p>
+          <div class="voice-divider"></div>
+          <p class="voice-detail">
+            エンジニア経験が約2年と、経験が浅いので仕事が決まるか不安でしたが、
+            親身になって多くの案件を提案いただけました。
+          </p>
+        </div>
+        <div class="voice-content">
+          <p class="voice-info">20代エンジニア</p>
+          <div class="voice-divider"></div>
+          <p class="voice-detail">
+            独立経験のあるコンサルタントの方が専属でサポートいただけるので、安心感がありました。
+          </p>
+        </div>
+        <div class="voice-content">
+          <p class="voice-info">20代エンジニア</p>
+          <div class="voice-divider"></div>
+          <p class="voice-detail">
+            開業届から記帳代行、確定申告まで無料でフルサポートいただけるのは非常にありがたいです。
+            記帳代行は領収書PDFを送付すればOKという手軽さです。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faq -->
+    <section class="faq section-gray">
+      <p class="section-caption">FAQ</p>
       <h2>
-        ITフリーランスに<br>
-        最も寄り添えるエージェント
+        よくある質問
       </h2>
-      <div>
-        <a href="">
-          すべての提携サービスを見る
-          <i class="far fa-arrow-alt-circle-right"></i>
-        </a>
+      <div class="faq-container">
+        <div class="faq-content-box">
+          <div class="faq-content">
+            <p class="faq-question">
+              <span>Q.</span>
+              利用料金はかかりますか？
+            </p>
+            <p>
+              利用料金は一切かかりません。コンサルタントのキャリア相談から案件参画まで全て無料で利用していただけます。
+            </p>
+          </div>
+        </div>
+        <div class="faq-content-box">
+          <div class="faq-content">
+            <p class="faq-question">
+              <span>Q.</span>
+              実際にはどのような案件がありますか？
+            </p>
+            <p>
+              AWS, python, Java, Ruby, React, Vue, Angularなどを用いた案件をご用意しております。
+              仕事の領域もさまざまなので、最先端の技術に触れながらスキルアップすることが可能です。
+            </p>
+          </div>
+        </div>
+        <div class="faq-content-box">
+          <div class="faq-content">
+            <p class="faq-question">
+              <span>Q.</span>
+              リモート案件はありますか？
+            </p>
+            <p>
+              リモート案件のご用意もございます。またコロナ禍の影響でリモートワークが可能な制度が整っている企業も増えてきており、
+              案件によって在宅作業が可能です。案件に関する希望がある際には担当コンサルタントへご相談ください。
+            </p>
+          </div>
+        </div>
+        <div class="faq-content-box">
+          <div class="faq-content">
+            <p class="faq-question">
+              <span>Q.</span>
+              標準的な支払いサイトは何日でしょうか？
+            </p>
+            <p>
+              弊社の支払いサイトは一律で「月末締め・翌月20日払い」となっております。
+              また即日払いも受付可能なので、担当コンサルタントへご相談ください。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conversion -->
+    <section class="conversion">
+      <div class="conversion-container">
+        <h2>
+          ITフリーランスに<br>
+          最も寄り添えるエージェント
+        </h2>
+        <div class="apply-button-body">
+          <a id="form-link" href="https://freelance.techbiz.co.jp/login">
+            コンサルタントに無料相談
+            <i class="far fa-arrow-alt-circle-right fa-lg"></i>
+          </a>
+        </div>
       </div>
     </section>
 
     <!-- Caption -->
-    <section>
-      <div>
-        <img src="./src/img/logo-techbiz-freelance.png" alt="テックビズフリーランスロゴ">
-      </div>
-      <p>
-        ※1 独立経験のないアシスタントが対応させていただく場合もございます。<br>
-        これまでのご経験スキルやご状況により、案件のご紹介が難しい場合もございます。
-        何卒、ご理解とご了承の程お願い申し上げます。
-      </p>
-      <div>
-        <a href="">
-          <i class="far fa-arrow-alt-circle-up"></i>
-          ページトップに戻る
-        </a>
+    <section class="caption">
+      <div class="caption-container">
+        <div class="caption-logo">
+          <img src="./src/img/logo-techbiz-freelance.png" alt="テックビズフリーランスロゴ">
+        </div>
+        <p class="caption-text">
+          ※1 独立経験のないアシスタントが対応させていただく場合もございます。<br>
+          これまでのご経験スキルやご状況により、案件のご紹介が難しい場合もございます。
+          何卒、ご理解とご了承の程お願い申し上げます。
+        </p>
+        <div class="caption-button">
+          <a href="#firstView">
+            <i class="far fa-arrow-alt-circle-up"></i>
+            ページトップに戻る
+          </a>
+        </div>
       </div>
     </section>
 
     <!-- Footer -->
     <footer>
-      <div>
-        <a href="">運営会社</a>
-        <a href="">利用規約</a>
-        <a href="">個人情報保護方針</a>
+      <div class="footer-container">
+        <div>
+          <a href="https://www.nkc-asia.com/about/">運営会社</a>
+          <a href="https://terms.tech-biz.jp/#techbiz_terms_of_use">利用規約</a>
+          <a href="https://terms.tech-biz.jp/#techbiz_privacy_policy">個人情報保護方針</a>
+        </div>
+        <p>
+          ©︎ NKC ASIA CO., LTD.
+        </p>
       </div>
-      <p>
-        ©︎ NKC ASIA CO., LTD.
-      </p>
     </footer>
   </body>
 </html>
