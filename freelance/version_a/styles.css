@@ -86,6 +86,17 @@ header {
   border-radius: 4px;
 }
 
+@media screen and (min-width: 421px) {
+  .apply-button a {
+    transition: 0.5s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
+  }
+
+  .apply-button a:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  }
+}
+
 .firstView-main {
   background: center / cover no-repeat url("./src/img/banner-top-pc.png");
   padding: 150px 0 80px;
@@ -123,6 +134,17 @@ header {
   font-size: 16px;
   font-weight: bold;
   border-radius: 4px;
+}
+
+@media screen and (min-width: 421px) {
+  .apply-button-body a {
+    transition: 0.5s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
+  }
+
+  .apply-button-body a:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  }
 }
 
 .firstView-merit-container {
@@ -263,6 +285,17 @@ header {
   border: 2px solid #00071a;
   border-radius: 4px;
   background-color: #fff;
+}
+
+@media screen and (min-width: 421px) {
+  .lifesupport-button a {
+    transition: 0.5s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
+  }
+
+  .lifesupport-button a:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  }
 }
 
 .lifesupport-caption {
@@ -440,6 +473,17 @@ header {
   padding: 10px;
   border: 2px solid #2343ad;
   border-radius: 4px;
+}
+
+@media screen and (min-width: 421px) {
+  .caption-button a {
+    transition: 0.5s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
+  }
+
+  .caption-button a:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  }
 }
 
 footer {
