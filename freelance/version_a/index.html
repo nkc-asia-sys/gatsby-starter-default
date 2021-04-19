@@ -63,10 +63,10 @@
           <img src="./src/img/banner-caption.png" alt="キャッチコピー">
         </div>
         <h1 class="firstView-copy">
-          ITフリーランスに最も寄り添えるエージェント
+          ITフリーランスに<br class="content-sp">最も寄り添える<br class="content-sp">エージェント
         </h1>
         <p class="firstView-description">
-          独立から案件参画後まで専属コンサルタントがトータルサポートいたします
+          独立から案件参画後まで専属コンサルタントが<br class="content-sp">トータルサポートいたします
         </p>
         <div class="apply-button-body">
           <a id="form-link" href="https://freelance.techbiz.co.jp/login">
@@ -134,7 +134,7 @@
             <img src="./src/img/feature3.svg" alt="特典">
           </div>
           <h3>
-            フリーランス向けサービスで特典・ポイント還元
+            フリーランス向けサービスで<br class="content-sp">特典・ポイント還元
           </h3>
           <p>
             フリーランスの活動をサポートする人気サービスと数多く提携しており、
@@ -148,7 +148,7 @@
     <section class="consulting section-gray">
       <p class="section-caption">ABOUT CONSULTING</p>
       <h2>
-        プロの専属コンサルタントに幅広くご相談が可能
+        プロの専属コンサルタントに<br class="content-sp">幅広くご相談が可能
       </h2>
       <p class="consulting-description">
         弊社コンサルタントは、全員が過去に独立した経験を持っているため、
@@ -178,7 +178,8 @@
         <img src="./src/img/step-caption.png" alt="案件参画コピー">
       </div>
       <div class="step-image">
-        <img src="./src/img/step-list-pc.png" alt="ステップ図">
+        <img src="./src/img/step-list-pc.png" alt="ステップ図" class="content-pc">
+        <img src="./src/img/step-list-sp.png" alt="ステップ図" class="content-sp">
       </div>
       <div class="apply-button-body">
         <a id="form-link" href="https://freelance.techbiz.co.jp/login">
@@ -191,7 +192,7 @@
     <!-- Benefit -->
     <section class="benefit section-gray">
       <p class="section-caption">BENEFITS AND RETURNS</p>
-      <h2>特典やポイント還元に対応したサービス</h2>
+      <h2>テックビズ会員限定の特典に<br class="content-sp">対応したサービス</h2>
       <div class="benefit-container">
         <div class="benefit-image"><img src="./src/img/logo-udemy.png" alt="Udemy"></div>
         <div class="benefit-image"><img src="./src/img/logo-techacademy.png" alt="TechAcademy"></div>
@@ -352,5 +353,27 @@
         </p>
       </div>
     </footer>
+
+    <!-- Rentracks Tag -->
+    <script type="text/javascript">
+      (function (callback) {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "https://www.rentracks.jp/js/itp/rt.track.js?t=" + (new Date()).getTime();
+        if (script.readyState) {
+          script.onreadystatechange = function () {
+            if (script.readyState === "loaded" || script.readyState === "complete") {
+              script.onreadystatechange = null;
+              callback();
+            }
+          };
+        } else {
+          script.onload = function () {
+            callback();
+          };
+        }
+        document.getElementsByTagName("head")[0].appendChild(script);
+      }(function () { }));
+    </script>
   </body>
 </html>

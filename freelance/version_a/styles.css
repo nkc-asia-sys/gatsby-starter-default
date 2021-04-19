@@ -6,6 +6,10 @@ body {
   line-height: 1.5;
 }
 
+.content-sp {
+  display: none;
+}
+
 h1 {
   font-size: 45px;
   margin: 0;
@@ -460,4 +464,181 @@ footer a {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 420px) {
+  .content-pc {
+    display: none;
+  }
+
+  .content-sp {
+    display: block;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin: 0 auto 20px;
+  }
+
+  .firstView-main {
+    padding: 120px 10px 60px;
+  }
+
+  .firstView-catch {
+    width: 200px;
+  }
+
+  .firstView-description {
+    font-size: 14px;
+  }
+
+  .firstView-merit-container {
+    align-items: baseline;
+  }
+
+  .firstView-merit-content {
+    padding: 20px 0 10px;
+  }
+
+  .firstView-merit-title {
+    font-size: 14px;
+  }
+
+  .firstView-merit-subTitle {
+    font-size: 16px;
+  }
+
+  .firstView-merit-subTitle span {
+    font-size: 56px;
+  }
+
+  .firstView-merit-subTitle .firstView-merit-japanese {
+    font-size: 50px;
+  }
+
+  .section-white {
+    width: auto;
+    padding: 30px 20px 60px;
+  }
+
+  .section-gray {
+    width: auto;
+    padding: 30px 20px 60px;
+  }
+
+  .section-caption {
+    margin-bottom: 8px;
+  }
+
+  .features-container {
+    display: block;
+  }
+
+  .features-content {
+    max-width: none;
+    margin-bottom: 30px;
+  }
+
+  .features-icon {
+    margin: 0 auto 20px;
+  }
+
+  .consulting-description {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  .consulting-container {
+    max-width: none;
+    display: block;
+  }
+
+  .consulting-container div {
+    width: 300px;
+    margin: 0 auto 30px;
+  }
+
+  .consulting-list {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .consulting-list li {
+    font-size: 16px;
+  }
+
+  .step-catch {
+    width: 210px;
+    margin: 0 auto 30px;
+  }
+
+  .step-image {
+    width: 200px;
+    margin: 0 auto 40px;
+  }
+
+  .benefit-container {
+    margin: 0 auto 40px;
+  }
+
+  .benefit-image {
+    padding: 5px;
+    max-width: 47%;
+  }
+
+  .voice-description {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+
+  .voice-content {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .faq-content-box {
+    max-width: none;
+    padding-bottom: 20px;
+  }
+
+  .faq-question {
+    font-size: 16px;
+  }
+
+  .faq-question span {
+    font-size: 20px;
+  }
+
+  .conversion h2 {
+    margin: 0 auto 20px;
+  }
+
+  .caption {
+    padding: 30px 20px;
+  }
+
+  .caption-logo {
+    margin-bottom: 20px;
+  }
+
+  .caption-text {
+    margin-bottom: 20px;
+  }
+
+  .footer-container {
+    justify-content: center;
+  }
+
+  .footer-container div {
+    margin-bottom: 20px;
+  }
 }
